@@ -8,7 +8,7 @@
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-header">{{ $project->title }}</div>
-                        <div class="card-header">{{ $project->type?->name }}</div>
+                        <div class="card-header">{{ $project->type?->name ?? 'Type mancante' }}</div>
                         <div class="card-body">{{ $project->description }}</div>
                         <a class="d-flex justify-content-center" href="{{ route('admin.projects.show', $project->id) }}"><img
                                 src="{{ $project->image }}" class="comics-img w-25 align-self-center"
