@@ -17,9 +17,7 @@ class TypeSeeder extends Seeder
 
         foreach ($array_type as $type_item) {
             $array_type = new Type();
-            $array_type->name = $type_item["name"];
-            $array_type->description = $type_item["description"];
-
+            $array_type->fill($type_item);
             $array_type->save();
         }
     }
