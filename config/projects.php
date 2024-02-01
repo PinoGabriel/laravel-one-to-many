@@ -5,13 +5,15 @@ return [
         "title" => "My first project",
         "description" => "Hey, this is my first project, do you like it?",
         "image" => "https://www.coverbrowser.com/image/action-comics/1-1.jpg",
-        "topic" => "Web development"
+        "topic" => "Web development",
+        "type_id" => 1
     ],
     [
         "title" => "My second project",
         "description" => "Hey, this is my second project, do you like it?",
         "image" => "https://www.panini.it/media/catalog/product/cache/a5b5dd3adfe0d321084804c738f29601/M/1/M1BLLA015ISBN_0.jpg",
-        "topic" => "Database development"
+        "topic" => "Database development",
+        "type_id" => 2
     ],
     [
         "title" => "My third project",
